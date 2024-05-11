@@ -1,0 +1,37 @@
+.navbar {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover {
+  color: rgb(7, 88, 126);
+}
+.navbar h2 {
+  font-size: 1.5rem;
+}
+
+.navbar input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 3px 5px rgb(34, 52, 107);
+  transition: all ease-in 150ms;
+}
+.navbar input:focus {
+  outline: none;
+  box-shadow: 0px 4px 8px rgb(47, 72, 175);
+  transition: all ease-in 150ms;
+}
+.navbar ul {
+  display: flex;
+  gap: 15px;
+}
+.navbar li {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
