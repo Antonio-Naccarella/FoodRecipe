@@ -49,7 +49,7 @@ export default function GlobalState({ children }) {
     if (index === -1) {
       newFavoritesList.push(currentItem)
     } else {
-      newFavoritesList.splice(index)
+      newFavoritesList.splice(index, 1)
     }
     setFavoritesList(newFavoritesList)
   }
